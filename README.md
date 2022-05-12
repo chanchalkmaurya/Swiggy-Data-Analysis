@@ -2,7 +2,13 @@
 
 <p align="center">
 
-  [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+  ![Made With Python](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/made-with-python.svg) <br>
+  ![Juputer Notebook](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/jupyter-notebook.svg)
+  ![Numpy](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/numpy.svg)
+  ![plotly](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/plotly.svg)
+  ![Pandas](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/pandas.svg)
+  ![Seaborn](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/seaborn.svg)
+  ![Miniconda](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/badges/mini-conda.svg)
   
 </p>  
 
@@ -10,7 +16,7 @@
   <img src="https://github.com/striver005/Swiggy-Data-Analysis/blob/master/swiggy_images/swiggy_image.png">
 </p>
 
-# 📝Problem Statement
+# Problem Statements
 Food industries are having important reflection of the economy from past few decades. In this project, we are analyzing the various aspects with different use cases which covers many aspects of Swiggy Food Delivery Service. It helps in not only understanding the meaningful relationships between attributes, but it also allows us to do our own research and come-up with our findings.
 
 Analysis of the following is performed in this Project:
@@ -24,41 +30,46 @@ Analysis of the following is performed in this Project:
     7. Area-wise Cuisines Analysis & Distribution of Cuisines in BTM, HSR, & Koramangala (Bangalore) Restaurants.
     8. Most preferred Cuisines by the Customers.
 
-And many more!!
 
-# ⏳ Dataset
+
+#  Dataset of Bangalore
 Download the dataset for this project from following Link -
 * [Swiggy Data Analysis Dataset](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/data/Swiggy%20Bangalore%20Outlet%20Details.csv)
-# 📚 Data Analysis
-In the datasets we are provided with following columns (Features) of data.
 
-* Shop_Name : Name of the Shop/Restaurants.
-* Cuisine : Name of the different Cuisines provided by Restaurants.
-* Location : Restaurant Area/Location.
-* Rating : Rating given by the Customers out of 5.
-* Cost_for_Two (₹) : Approx. Cost of Two people w.r.t. Restaurants.
 
-Out of the 5 features given in the datasets 2 are Continuous and 3 (including the target variable) are Categorical features.
+#  Data Analysis
+In the datasets Following features (columns) are given:
 
-# 🎉 Approach (Architecture):
+1. Shop_Name : Name of the Shop/Restaurants.
+2. Cuisine : Name of the different Cuisines provided by Restaurants.
+3. Location : Restaurant Area/Location.
+4. Rating : Rating given by the Customers out of 5.
+5. Cost_for_Two (₹) : Approx. Cost of Two people w.r.t. Restaurants.
+
+Out of the 5 features  2 are Continuous and 3  are Categorical features.
+
+
+# Process-Flow:
 ![Process Flow](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/swiggy_images/architecture_of_swiggy.png)
 
-# 🖥️ Technologies:
-## 🛠️ Tools Used
+
+# Technologies:
+##  Tools Used
 * Jupyter Notebook is used as IDE. 
 * Pandas is used for Data Manipulation & Pre-processing.
 * For visualization of the plots, Matplotlib, Seaborn, Plotly are used.
 * GitHub is used as version control system.
+![Tools-Used](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/swiggy_images/tools_used.png)
 
 
-# 🌱 Some Visuals Of the Project:
+# Some Visuals Of the Project:
 ![Visual 1](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/img/cost%20vs%20rating.png)
 ![Visual 2](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/img/highest_rated_and_affordable_restaurants.png)
 ![Visual 3](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/img/Overall%20Analysis%20of%20Cuisines%20-%20pie.png)
 ![Visual 4](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/img/top%2015%20cheapest%20but%20highest%20rated%20restaurants.png)
 ![Visual 5](https://github.com/striver005/Swiggy-Data-Analysis/blob/master/img/top%2015%20expensive%20but%20highest%20rated%20restaurants.png)
 
-# 💡 Conclusions
+# Conclusions
 
     In this analysis project, we have been analyzed several different use cases for the given dataset t o make better business decisions and help analyze customer trends and satisfaction, which can lead to new and better products and services. It has been found that – 
     •	In BTM Area: Most of the Restaurants has 4.0 to 4.2 Rating and Approx. Cost for Two People lies between 200 to 350. (Max. Cost goes up to 600)
